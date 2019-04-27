@@ -16,7 +16,7 @@ class CreateCityDialogFragment : DialogFragment() {
         fun onDialogNegativeClick()
     }
 
-    val listener: CreateCityDialogListener? = null
+    var listener: CreateCityDialogListener? = null
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val builder = AlertDialog.Builder(context)
